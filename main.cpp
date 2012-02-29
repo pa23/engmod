@@ -33,7 +33,8 @@ void about() {
     cout << "\n" << "engmod " << VERSION;
 
     cout << "\n\nCopyright (C) 2012 Artem Petrov <pa2311@gmail.com>"
-        "\n\nAuthor's blog (RU): http://pa2311.blogspot.com\n\n"
+        "\n\nProgram hosting: https://github.com/pa23/engmod\n"
+        "Author's blog (RU): http://pa2311.blogspot.com\n\n"
         "This program is free software: you can redistribute it and/or modify\n"
         "it under the terms of the GNU General Public License as published by\n"
         "the Free Software Foundation, either version 3 of the License, or\n"
