@@ -90,6 +90,7 @@ void Field::createMatrix() {
     double tmpmax_y = tmpmin_y + ay.step;
 
     size_t num = vx.size();
+    bool brk = false;
 
     for ( size_t n=0; n<num; n++ ) {
 
@@ -101,10 +102,18 @@ void Field::createMatrix() {
                      (vy[n]>tmpmin_y && vy[n]<=tmpmax_y) ) {
 
                     matrix[i][j]++;
+                    brk = true;
+                    break;
                 }
 
                 tmpmin_x += ax.step;
                 tmpmax_x += ax.step;
+            }
+
+            if ( brk ) {
+
+                brk = false;
+                break;
             }
 
             tmpmin_x = ax.minval;

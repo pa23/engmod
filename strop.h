@@ -29,6 +29,5 @@ void splitString(const std::string &,
                  const std::string &);
 std::string intToString(std::ptrdiff_t);
 double stringToDouble(const std::string &);
-size_t charsToInt(const char *);
 
 #endif	/* STROP_H */

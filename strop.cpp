@@ -64,14 +64,3 @@ double stringToDouble(const string &str) {
 
     return val;
 }
-
-size_t charsToInt(const char *ch) {
-
-    istringstream stm;
-    size_t val = 0;
-
-    stm.str(ch);
-    stm >> val;
-
-    return val;
-}
