@@ -14,6 +14,6 @@ Calculation of engine modes distribution field.
 Compile and build
    1. download source code from https://github.com/pa23/engmod/downloads
    2. unpack the archive
-   3. cd pa23-engmod-*
-   4. g++ -o engmod -std=c++0x *.cpp
+   3. move to directory with source files
+   4. g++ -o engmod --std=c++11 *.cpp
 --------------------------------------------------------------------------------
