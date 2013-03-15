@@ -98,8 +98,8 @@ void Field::createMatrix() {
 
             for ( size_t j=0; j<DIMENSION; j++ ) {
 
-                if ( (vx[n]>tmpmin_x && vx[n]<=tmpmax_x) &&
-                     (vy[n]>tmpmin_y && vy[n]<=tmpmax_y) ) {
+                if ( (vx[n]>=tmpmin_x && vx[n]<=tmpmax_x) &&
+                     (vy[n]>=tmpmin_y && vy[n]<=tmpmax_y) ) {
 
                     matrix[i][j]++;
                     brk = true;

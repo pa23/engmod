@@ -23,7 +23,7 @@
 
 #include <string>
 
-const std::string VERSION = "v2.0.1";
+const std::string VERSION = "v2.0.2";
 const size_t DIMENSION = 10;
 const std::string CSVDELIM = "\t";
 
